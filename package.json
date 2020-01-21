@@ -1,0 +1,59 @@
+{
+  "name": "av-bricks",
+  "version": "0.0.1",
+  "homepage": "",
+  "license": "MIT",
+  "description": "Project based on boilerplate https://html5boilerplate.com/",
+  "keywords": [
+    "bricks"
+  ],
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "del": "^5.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-recommended": "^4.0.0",
+    "eslint-plugin-mocha": "^6.2.1",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "ssri": "^7.1.0",
+    "strip-json-comments": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "h5bp-configs": {
+    "directories": {
+      "dist": "dist",
+      "src": "src"
+    }
+  },
+  "files": [
+    "LICENSE.txt",
+    "package.json",
+    "dist/",
+    "README.md"
+  ],
+  "dependencies": {}
+}
