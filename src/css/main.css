@@ -36,7 +36,8 @@ html, body {
   background-color: lightgreen;
 }
 
-.game-canvas {
+#game-canvas {
+  display: flex;
   border: 0.0625rem solid gray;
   width: calc(6.25rem * 8);
   height: calc(6.25rem * 6);
